@@ -1,10 +1,10 @@
 class Requests {
-  getPing() {
+  getPing () {
     return cy.request({
       method: 'GET',
-      url: 'ping',
-    });
+      url: 'ping'
+    })
   }
 }
 
-export default new Requests();
+export default new Requests()

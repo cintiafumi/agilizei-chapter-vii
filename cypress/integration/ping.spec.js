@@ -7,5 +7,5 @@ describe('Ping', () => {
   it('should GET HealthCheck', () => {
     req.getPing()
       .then((response) => assertions.shouldHaveStatus(response, 201))
-  });
-});
+  })
+})
